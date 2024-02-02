@@ -1,0 +1,22 @@
+.custom-bg {
+    background-position: 0px 0px, 50% 0%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+    border-bottom: 1px solid #393939;
+	background-color: #0c0c0c;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../.././../../assets/bg-hero.jpg");
+}
+.custom-max-w-main {
+    max-width: 45rem;
+    background-color: #88888802;
+backdrop-filter: blur(5px);
+padding: 1rem;
+border-radius: 18px;
+}
+
+@media screen and (max-width: 900px) {
+    .custom-bg {
+            background-position: 3rem 10rem, 40% 2%; 
+    }
+}

@@ -1,0 +1,72 @@
+
+.portfolio-section {
+    padding: 5rem 0.125rem 5rem 0.125rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.lower-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 4rem 0 0;
+    max-width: 50rem;
+    
+}
+.lower-text-wrapper > h4 {
+    padding-bottom: 2rem;
+    max-width: 50rem;
+}
+.bar-p-wrapper {
+    display: flex;
+    font-style: italic;
+    padding-bottom: 2rem;
+    max-width: 50rem;
+}
+
+.bar-p-wrapper > div {
+    border-left: 3px solid #4051CF;
+    font-style: italic;
+    padding-right: 1rem;
+}
+.signature-parent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.icons-wrapper {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height:100%;
+}
+.icons-wrapper > a > svg {
+font-size: 3rem;
+color: #4051CF;
+transition: 0.2s;
+}
+.icons-wrapper > a > svg:hover {
+    color: #8080F5;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+	.portfolio-section {
+		display: flex;
+        flex-direction: column;
+	}
+    .lower-text-wrapper {
+        padding-right: 0rem;
+    }
+.Lannara-img {
+    width: 20rem;
+} }
